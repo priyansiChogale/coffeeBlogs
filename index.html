@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+    <title>The Perfect Cup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="display-4">The Perfect Cup</h1>
+  <h6 class="tagline">Take a break, drink some coffee</h6>
+
+  <!--Navs-->
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#blogs">Blogs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#tips">Tips</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#faqs">FAQs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contactus">Contact Us</a>
+    </li>
+  </ul>
+
+  <!--carousel-->
+  <div class="container content-2">
+  <div class="row justify-content-center">
+    <div class="col">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images\slide1.png" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\slide2.png" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\slide3.png" class="d-block" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <h6 class="Wel">The best grain, the finest roast, the most powerful flavor.</h6>
+  </div></div></div></div>
+
+  <!--how to make-->
+  <div class="container content-1" id="blogs">
+    <h6 class="title">HOW TO MAKE THE PERFECT CUP OF COFFEE</h6>
+    <h6 class="title dotted">-------------------------------------</h6>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <img src="images/coffeeBlog.jpg" alt="">
+      </div>
+      <div class="col-md-8">
+        <p>Making a perfect cup of coffee can be challenging! With so many unique flavors and receipes to choose from, where do you begin? This website provides you with the best receipes from around the world. Whether you prefer your coffee hot or mild - we are sure to have what you are looking for.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--blogs-->
+  <div class="container content-1">
+    <h6 class="title">COFFEE BLOGS</h6>
+    <h6 class="title dotted">-------------------------------------</h6>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="images/coffee1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Affogato</h5>
+            <small>Fresh-brewed espresso and vanilla ice cream make a fabulous after-dinner coffee dessert.</small>
+            <a class="modalLink" href="#Modal1" data-bs-toggle="modal">
+              Read more...
+            </a>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/coffee2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">White Chocolate Latte</h5>
+            <small>Does the thought of a sweet, creamy white chocolate latte make you weak in the knees?</small>
+            <a class="modalLink" href="#Modal2" data-bs-toggle="modal">
+              Read more...
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/coffee3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Flat White Espresso</h5>
+            <small>A Flat White is similar to a latte in that it's made with espresso and frothed milk.</small>
+            <a class="modalLink" href="#Modal3" data-bs-toggle="modal">
+              Read more...
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/coffee4.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cafe Latte</h5>
+            <small>Enjoy an Italian-style cafe latte at home, while you linger in your bathrobe.</small>
+            <a class="modalLink" href="#Modal4" data-bs-toggle="modal">
+              Read more...
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modal 1-->
+  <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Affogato</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Fresh-brewed espresso and vanilla ice cream make a fabulous after-dinner coffee dessert. The Italian affogato is an easy recipe that can be made with a stovetop espresso maker or any strong coffee if you don't have a separate machine. Be sure to freeze the glasses as it's the secret to avoiding melted ice cream.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">White Chocolate Latte</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Does the thought of a sweet, creamy white chocolate latte make you weak in the knees? We can't make the cravings stop—but we can share this dreamy recipe, so you can skip the drive to the coffee shop this winter.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3 -->
+  <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Flat White Espresso</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          A Flat White is similar to a latte in that it's made with espresso and frothed milk. But to make this trendy Australian beverage, you fold the milk foam into the coffee for a smooth, integrated experience, versus layering it on top. It takes a bit of practice, but mastering it will definitely impress your friend squad at brunch.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4-->
+  <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cafe Latte</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Enjoy an Italian-style cafe latte at home, while you linger in your bathrobe. Typically made with more milk than a cappuccino, this popular coffee drink requires only two simple ingredients, though it's also considered proper to add some flavored simple syrup for sweetness.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--tips-->
+  <div class="container content-1" id="tips">
+    <h6 class="title">EXTRA TIPS</h6>
+    <h6 class="title dotted">-------------------------------------</h6>
+    <div class="row justify-content-center">
+      <p class="tip">Stir 1 tablespoon chocolate syrup into your coffee cup for a chocolatey twist.</p>
+      <p class="tip">A splash of bourbon or scotch turns this coffee cup into a fun after dinner drink treat.</p>
+    </div>
+  </div>
+
+  <!--FAQs-->
+  <div class="container content-1" id="faqs">
+    <h6 class="title">FREQUENTLY ASKED QUESTIONS</h6>
+    <h6 class="title dotted">-------------------------------------</h6>
+    <div class="row justify-content-center">
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Is it okay to grind your beans in advance?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">For the best cup, grind your beans just before use. Store your un-ground beans in an airtight container in a cool, dry place. This will keep them fresh and ready to burst with flavor for a few weeks.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Do I need to buy special, dark roasted coffee for my Espresso maker?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Espresso is not a particular coffee roast; it is a method of brewing coffee. The only particular attribute of the coffee before it goes in the espresso maker is that it must be finely ground. In fact, the best Espresso coffees are blends of different flavorful coffees, a dark French or Italian roast being just one.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              How to store coffee beans?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">One should always store coffee beans in a glass, air-tight container. Make sure the container is not exposed to light, as sunlight is believed to reduce freshness.
+              Do not freeze ground coffee.  The freezing will damage some of subtle tastes in the coffee.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Us-->
+  <div class="container content-1" id="contactus">
+    <h6 class="title">CONTACT US</h6>
+    <h6 class="title dotted">-------------------------------------</h6>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control">
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control">
+      </div>
+      <div class="col-md-12">
+        <label class="form-label">Message</label>
+        <textarea rows="5" class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn sendBtn">Send</button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
